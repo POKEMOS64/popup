@@ -1,0 +1,82 @@
+html
+	font-size: 20px
+	@media(max-width:1600px)
+		font-size: 18px
+	@media(max-width:1440px)
+		font-size: 17px
+	@media(max-width:1200px)
+		font-size: 16px
+	@media(max-width:960px)
+		font-size: 15px
+
+$OP: 'Open Sans', sans-serif
+//base COLOR
+$color-base: #19222d
+$color-border: #2a3e53
+$color-blue: #b1c3d5
+//base COLOR
+
+body
+	background: $color-base
+	color: #ffffff
+	font:
+		family: $OP
+		size: 0.65rem
+
+
+
+ 
+
+
+/*Параметры для картинок*/
+img,
+iframe 
+	width: 100%
+	margin: auto
+	display: block
+	margin-top: 1rem
+	margin-bottom: 1rem
+/*Обязательный параметр!!!!!!!!*/
+
+
+a,button
+	cursor: pointer
+	text-transform: none
+	text-decoration: none
+	color: #000
+	&:hover
+			color: #2A3E53
+			opacity: .8
+h1
+	color: #ffffff
+	font:
+		size: 4rem
+	text-transform: uppercase
+	text-align: center
+	margin: 0
+h3
+	font:
+		size: 2.3rem
+	text-align: center
+	width: 100%
+	padding: 1rem 0
+	&:after
+		content: ''
+		display: block
+		+bg(1uzor)
+		background-size: 100%
+		background-repeat: no-repeat
+		width: 20rem
+		height: 2rem
+		margin: 1rem auto 0
+		left: calc(100vw - 61.5%)
+
+main
+	&>div
+		background-repeat: no-repeat
+		background-size: cover
+		background-position: center
+		padding: 2rem 0
+.middle
+	max-width: 1366px
+	margin: 0 auto

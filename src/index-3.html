@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	<link rel="ico" type="image/png" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<link rel="stylesheet" href="css/res__sass.min.css"/>
+  <link rel="stylesheet" href="css/style.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+	<div class="popup">
+		<div class="popup__menu">
+		<input type="checkbox" id="fadeIn">
+		<label class="click" for="fadeIn"></label>
+		<div class="popup__menu__info">
+			<div class="popup__menu__info_block">
+				<div>
+					<p>Уведомления</p>
+					<input type="checkbox" class="checkbox" id="checkbox">
+					<label for="checkbox" ></label>
+					</div>
+					<div>
+						<p>Статус «В сети»</p>
+						<input type="checkbox" class="checkbox-2" id="checkbox-2">
+						<label for="checkbox-2" id="chek">
+
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popup_header">
+			<div class="popup_header__h1">
+				Задание: простой чат
+			</div>
+			<div class="popup_header__span">
+				Количество участников безгранично
+			</div>
+		</div>
+		<div class="popup_container">
+			<div class="popup_container_element">
+				<img class="avatar" src="img/photoNormal_2.png" alt="pictures">
+				<div class="popup_container_element_box">
+					<div class="h1">Diana</div>
+					<div class="popup_container_element_box-text">
+						<p>Сам чат состоит из трех частей:
+- заголовка (его высота фиксирована), в котором указано название чата, количество участников и кнопка открытия списка настроек чата;</p>
+						<p>- зоны сообщений пользователей (зона сообщений занимает все свободное от заголовка и блока ввода сообщения место, здесь же и присутствует вертикальный скролл), в которой отображаются сообщения пользователей с указанием автора сообщения (аватарка и имя);</p>
+					<p>- блока ввода сообщений (который растет по мере количества строк в сообщении пользователя, но ограничен максимальной  высотой)</p>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="popup_container_element">
+				<img class="avatar" src="img/photoNormal.png" alt="pictures">
+				<div class="popup_container_element_box">
+					<div class="h1">Sergio</div>
+					<div class="popup_container_element_box-text">
+						<p>Как вы уже поняли, на втором экране уже появляются сообщения и их может быть довольно много.</p>
+						<p>Сообщения от одного и того же пользователя «слипаются» (чтобы занимать меньше места)</p>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="popup_container_element">
+				<img class="avatar" src="img/photoNormal_1.png" alt="pictures">
+				<div class="popup_container_element_box">
+					<div class="h1">Margo</div>
+					<div class="popup_container_element_box-text">
+						<p>Данные макеты должны быть сверстаны таким образом, чтобы отображаться на любых экранах в полный размер (занимать всю ширину и высоту устройства)</p>
+						<p>В этом состоянии отображен дропдаун с настройками. Он открывается по клику на иконку «три точки» и закрывается по клику на иконку «крестик» (которую визуально пользователь видит на том же месте).</p>
+						<p>Внутри дропдауна два пункта настроек, каждый из которых представляет себя переключатель на 2 состояния.</p>
+						<p>Напоминаем: никакого JS кода, реализовать требуется на чистом HTML+CSS. Анимирование интерфейсов не обязательно, но вы можете проявить себя =)</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="popup_input__text" contenteditable="true">
+			Сообщение…
+		</div>
+		<div class="popup__input_send">
+			<img src="img/icon_sendNormal.png" alt="">
+		</div>
+	</div>
+
+</body>
+</html>

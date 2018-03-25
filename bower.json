@@ -1,0 +1,22 @@
+{
+  "name": "kalina",
+  "description": "kalina",
+  "main": "index.js",
+  "authors": [
+    "POLEVOY"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+	"directory": "src/libs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
